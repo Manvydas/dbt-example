@@ -1,0 +1,7 @@
+
+target/
+dbt_packages/
+logs/
+profile/
+.DS_Store
+dbt-env-example/

@@ -1,0 +1,13 @@
+version: 2
+sources:
+  - name: turing_example
+    description: Our main Bigquery database.
+    schema: turing_example
+    tables:
+      - name: orders
+        description: Table containing orders data
+        columns:
+          - name: id
+            description: Primary key
+      - name: customers
+      - name: customer_details

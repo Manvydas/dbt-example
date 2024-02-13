@@ -1,0 +1,18 @@
+version: 2
+
+exposures:
+
+  - name: orders_analysis
+    label: Orders Analysis
+    type: dashboard
+    maturity: low
+    url: https://lookerstudio.google.com/reporting/9d0ba03f-27d2-4297-9751-9623b310a679
+    description: |
+      Report showing orders analysis with customers data.
+
+    depends_on:
+      - ref('orders_analysis')
+
+    owner:
+      name: Manvydas Sokolovas
+      email: manvis14@gmail.com
